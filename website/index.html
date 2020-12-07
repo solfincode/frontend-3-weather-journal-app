@@ -7,20 +7,21 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>weather app</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div id="app">
-      <div class="holder headline">Weather Journal App</div>
+      <div class="holder headline"><h1>Weather Journal App</h1></div>
       <div class="holder zip">
-        <label for="zip">Enter Zipcode here</label>
+        <label for="zip">Enter USA Zipcode Here</label>
         <input type="text" id="zip" placeholder="enter zip code here" />
       </div>
       <div class="holder feel">
@@ -29,8 +30,8 @@
           class="myInput"
           id="feelings"
           placeholder="Enter your feelings here"
-          rows="9"
-          cols="50"
+          rows="7"
+          cols="32"
         ></textarea>
         <button id="generate" type="submit">Generate</button>
       </div>
